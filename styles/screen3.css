@@ -1,0 +1,92 @@
+/* Navigation bar customization */
+.screen3-nav {
+    background-color: aqua;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    gap: 50vw;
+    align-items: center;
+    padding-left: 30vh; 
+}
+
+.screen3-nav-text {
+    background-color: tomato;
+    width: fit-content;
+    height: fit-content;
+}
+
+.s3-nav-text1 {
+    background-color: yellow;
+    width: fit-content;
+    height: fit-content;
+}
+
+.s3-nav-text2 {
+    background-color: teal;
+    width: fit-content;
+    height: fit-content;
+}
+
+.screen3-controlb {
+    background-color: brown;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+.s3-cb-left, .s3-cb-right {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    cursor: pointer; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; 
+}
+
+.s3-cb-left {
+    background-color: springgreen;
+}
+
+.s3-cb-right {
+    background-color: burlywood;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.container {
+    overflow: visible;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.slider {
+    display: flex;
+    animation: slide 30s linear infinite;
+}
+
+.card {
+    margin: 20px;
+    margin-top: 10vh; 
+    flex: 0 0 auto;
+    height: 65vh;
+    width: 25vw;
+}
+
+@keyframes slide {
+    from { transform: translateX(0); }
+    to { transform: translateX(calc(-250px * 12)); } 
+}
