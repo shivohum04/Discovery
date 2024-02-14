@@ -9,9 +9,11 @@ body{
     margin: 0%;
     padding: 0%;
     position: relative;
-    margin-bottom: 10px;
     background-color: white;
     overflow: hidden;
+}
+.screen1-logo{
+    width: 200px;
 }
 .screen1{
     height: 100vh;
@@ -113,7 +115,7 @@ body{
 
 }
 .screen1-scrollcircle{
-    background-color: darkgoldenrod;
+    border:5px white;
     border-radius: 50%;
     height: 50px;
     width: 50px;

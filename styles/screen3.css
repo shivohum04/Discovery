@@ -1,6 +1,6 @@
 /* Navigation bar customization */
 .screen3-nav {
-    background-color: aqua;
+    
     width: 100vw;
     height: 20vh;
     display: flex;
@@ -11,25 +11,25 @@
 }
 
 .screen3-nav-text {
-    background-color: tomato;
+    
     width: fit-content;
     height: fit-content;
 }
 
 .s3-nav-text1 {
-    background-color: yellow;
+   
     width: fit-content;
     height: fit-content;
 }
 
 .s3-nav-text2 {
-    background-color: teal;
+    
     width: fit-content;
     height: fit-content;
 }
 
 .screen3-controlb {
-    background-color: brown;
+   
     width: fit-content;
     height: fit-content;
     display: flex;
@@ -48,19 +48,11 @@
     padding: 10px; 
 }
 
-.s3-cb-left {
-    background-color: springgreen;
-}
-
-.s3-cb-right {
-    background-color: burlywood;
-}
 .overlay {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
     color: white;
     text-align: center;
     padding: 10px;
