@@ -1,0 +1,63 @@
+.about-screen6{
+    height: 160vh;
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    overflow: hidden;
+    background-color:#161f13;
+}
+.as6-container{
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 100vw;
+    padding-left: 10vw;
+}
+.as6-container-box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25vw;
+}
+.as6-container-title{
+
+    height: fit-content;
+    width: fit-content;
+}
+.as6-container-box{
+
+    width: 30vw;
+}
+
+.as6-box-button{
+
+    height: 7vh;
+    width: 10vw;
+    margin-top: 5vh;
+    border: 1px solid white;
+}
+.as6-container-title span{
+    font-size: 35px;
+}
+.as6-box-text span{
+    font-size: 15px;
+}
+.as6-video {
+    margin-left: 10vw;
+    margin-top: 2vh;
+    height: 80vh;
+    width: 76vw;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+  }
+  
+  .as6-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.as6-container span{
+    color: white;
+}

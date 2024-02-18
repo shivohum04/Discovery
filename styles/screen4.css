@@ -1,0 +1,108 @@
+.screen4{
+    height: 160vh;
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    background-color: white;
+    overflow:hidden;
+}
+.screen4-upper{
+    
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin-bottom: 5vh;
+}
+.s4-maintext{
+    margin-top: 15vh;
+    margin-left: 5vh;
+    font-size: 34px;
+}
+.s4-subtext{
+    margin-left: 5vh;
+    font-size: 13px;
+}
+.s4-earth-div{
+    height: 130vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+
+}
+.s4-earth{
+    
+    position: relative;
+    width: 70vw;
+    height: 130vh;
+    left: -5vw;
+}
+.s4-blackbox-main {
+    position: relative;
+    z-index: 1; /* Ensure the black box is above the earth image */
+    margin-top: 3vh;
+    background-color: black;
+    height: 70vh;
+    width: 80vw;
+    margin-left: -20vw; /* Adjust the negative margin to overlap the earth image */
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+  }
+  .s4-bb-tb{
+    
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+  }
+  .s4-tb-arrows{
+    
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    padding-left: 2vw;
+
+  }
+  .s4-tb-icons{
+    
+    height: 10vh;
+    width: 100%;
+    padding-left: 2vw;
+    display: flex;
+    flex-direction: row;
+    gap:25px;
+    align-items: center;
+
+  }
+  .s4-tb-location{
+    
+    height: 20vh;
+    padding-left: 2vw;
+    width: 100%;
+  }
+  .s4-tb-coordinates{
+    
+    height: 10vh;
+    width: 100%;
+    padding-left: 2vw;
+  }
+  .s4-bb-ib{
+    height: 100%;
+    width: 20vw;
+    
+    overflow: hidden;
+  }
+.s4-blackbox-main span {
+    color: #ffffff; /* Set the font color to white */
+  }
+.s4-tb-LOCname{
+    font-size: 36px;
+}

@@ -11,19 +11,23 @@
 }
 
 .screen3-nav-text {
-    
     width: fit-content;
     height: fit-content;
 }
 
 .s3-nav-text1 {
-   
+   font: 38.624px gt-sectra;
     width: fit-content;
     height: fit-content;
+   
+    
+}
+.s3t2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .s3-nav-text2 {
-    
+    font: 34.76px gotham;
     width: fit-content;
     height: fit-content;
 }
@@ -54,7 +58,7 @@
     left: 0;
     width: 100%;
     color: white;
-    text-align: center;
+    text-align: bottom left;
     padding: 10px;
     box-sizing: border-box;
     font-size: 18px;
@@ -67,17 +71,24 @@
 
 .slider {
     display: flex;
-    animation: slide 30s linear infinite;
+    animation: slide 100s linear infinite;
 }
 
 .card {
-    margin: 20px;
-    margin-top: 10vh; 
+    margin: 10px;
     flex: 0 0 auto;
     height: 65vh;
-    width: 25vw;
-}
+    width: 30vw;
+    position: relative;
+    contain: content;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for the transform */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds shadow for depth */
 
+}
+.card:hover {
+    transform: scale(1.05); /* Scales up the card to 105% of its original size */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Optional: increase shadow for effect */
+}
 @keyframes slide {
     from { transform: translateX(0); }
     to { transform: translateX(calc(-250px * 12)); } 

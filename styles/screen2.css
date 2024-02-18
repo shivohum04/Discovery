@@ -1,15 +1,11 @@
 .screen2{
-    background-image: url('../assests/page2bg.jpeg');
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center; 
-  
+    height: 150vh;
 }.screen2-main{
 
-    height: 90vh;
+    height: 110vh;
     margin-left: 12vw;
     margin-right: 12vw;
-    margin-top: 50px;
+    margin-top: 30vh;
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap;
@@ -26,28 +22,31 @@
     
     height: 100%;
     width: 50%;
+
 }
 .screen2-sub1-text{
     
     height: 50%;
     width: 100%;
+   
 }
 .screen2-sub1-img{
     
     height: 50%;
     width: 100%;
+
 }
 .s2para-text{
     
-    margin-top:50px;
+    margin-top:20vh;
     margin-right:30px;
     height: 50%;
+
 }
 .s2welcome-text,.s2world-text{
     font-size: xx-large;
 }
 .screen2-sub2-img{
-    background-color: aqua;
     height: 80vh;
     margin-bottom: 20vh;
     margin-right: 10vh;
@@ -57,6 +56,7 @@
     margin-bottom: 20vh;
     margin-right: 10vh;
     width: 500px;
+    
 
 }
 .s2lower{

@@ -1,0 +1,56 @@
+.exp-s4{
+    height: 110vh;
+    width: 100vw;
+    background-color:#f3f3f3;
+    padding-top: 25vh;
+}.exp-s4-mainbox{
+    position: relative;
+    width: 93vw; 
+    height: 95vh; 
+  }
+
+  .exp-s4-image-box {
+    position: absolute;
+    width: 75vw; 
+    height: 95vh;
+    z-index: 1;
+    background-size: cover;
+  }
+
+  .exp-s4-text-box {
+    position: absolute;
+    top: 15vh; 
+    left: 53vw;
+    width: 40vw;
+    height: 60vh; 
+    z-index: 2; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+
+  }
+  .exp-s4-title{
+    width: fit-content;
+    height: fit-content;
+    margin-top:10vh;
+    margin-left: 5vw;
+  }
+  .exp-s4-text{
+
+    height: fit-content;
+    width: 40vh;
+    margin-left: 5vw;
+    margin-top: 3vh;
+  }
+  .exp-s4-expb{
+
+    border: solid black 2px;
+    height: 6vh;
+    width: 12vw;
+    margin-left: 5vw;
+    margin-top: 5vh;
+  }
+.exp-s4-title span{
+    font-size: xx-large;
+}

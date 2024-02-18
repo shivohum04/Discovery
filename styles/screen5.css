@@ -1,0 +1,44 @@
+.screen5{
+    height: 100vh;
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    background-color: white;
+    overflow:hidden;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+.s5-experiences{
+    height: 100vh;
+    width: calc((100%/3));
+    background-color: orange;
+    overflow: hidden;
+    background-image: url(../assests/image-list/s5-experiences.jpeg);
+    background-size: cover;
+}
+.s5-lifestyle{
+    height: 100vh;
+    width: calc((100%/3));
+    background-color: white;
+    overflow: hidden;
+    background-image: url(../assests/image-list/s5-lifestyle.jpeg);
+    background-size: cover;
+
+}
+.s5-wellness{
+    height:100vh;
+    width: calc((100%/3));
+    background-color: green;
+    overflow: hidden;
+    background-image: url(../assests/image-list/s5-wellness.png);
+    background-size: cover;
+}
+
+.s5-img {
+    max-width: 100%; /* Ensure the images don't exceed the container width */
+    max-height: 100%; /* Ensure the images don't exceed the container height */
+    object-fit: cover; /* Maintain aspect ratio and fit within the container */
+}
+  
