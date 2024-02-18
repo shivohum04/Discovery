@@ -54,3 +54,25 @@
 .exp-s4-title span{
     font-size: xx-large;
 }
+.exp-s4-image-box-m {
+  position: absolute;
+  width: 75vw; 
+  height: 95vh;
+  margin-left: 25vw;
+  z-index: 1;
+  background-size: cover;
+}
+
+.exp-s4-text-box-m {
+  position: absolute;
+  top: 15vh; 
+  left: 15vw;
+  width: 40vw;
+  height: 60vh; 
+  z-index: 2; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+
+}
