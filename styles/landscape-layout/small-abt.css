@@ -1,0 +1,38 @@
+.screen1-title-line1,.screen1-title-line2{
+    font-size: larger;
+}
+.footer-text-loop,.scoll-to-exp1{
+    font-size:10px;
+}
+.footer-text-loop{
+    width: max-content;
+}
+.footer-text-1{
+    display: flex;
+    margin-left: 8vw;
+    flex-direction: column;
+}
+.screen3-nav{
+    margin-top: 20vh;
+}
+.about-interval{
+    height: fit-content;
+}
+.as3-main-textbox{
+    height: fit-content;
+}
+.about-screen4{
+    height: 140vh;
+}
+.container{
+    margin-top: 10vh;
+}
+.as6-video{
+    margin-top: 10vh;
+}
+.about-screen6{
+    height: 200vh;
+}
+.as6-box-button{
+    margin-bottom: 10vh;
+}

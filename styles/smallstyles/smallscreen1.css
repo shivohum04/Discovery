@@ -1,0 +1,14 @@
+.responsive{
+    width: 100vh;
+    height: 400vh;
+    background-color: black;
+    display: block;
+    position:static;
+    z-index: 2;
+    padding-top: 30vh;
+}
+.responsive-text{
+    color: white;
+   
+    margin-left: 45vw;
+}
